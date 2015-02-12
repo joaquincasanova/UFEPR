@@ -25,12 +25,13 @@ def attn_loop(channel):
         print " All attenuation steps complete."
 
 attn=32
-trig=24
+trig=24#trigger pin
 resolution=500000      
 
 freq = float(sys.argv[1])
 dur = float(sys.argv[2])
 delta =  float(sys.argv[3])
+freq = freq*1e9
 
 GPIO.setmode(GPIO.BOARD)
 GPIO.setup(trig, GPIO.IN)
