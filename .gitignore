@@ -1,4 +1,9 @@
 # Windows image file caches
+*.*\#*
+*.*~
+*.xls*
+*.zip
+
 Thumbs.db
 ehthumbs.db
 
