@@ -2393,8 +2393,8 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 &lt;/BODY&gt;&lt;/HTML&gt;</description>
 <packages>
 <package name="1111">
-<smd name="P$1" x="-1.524" y="0" dx="2.794" dy="1.27" layer="1" rot="R90"/>
-<smd name="P$2" x="1.524" y="0" dx="2.794" dy="1.27" layer="1" rot="R90"/>
+<smd name="P$1" x="-1.778" y="0" dx="3.556" dy="1.397" layer="1" rot="R90"/>
+<smd name="P$2" x="1.778" y="0" dx="3.556" dy="1.397" layer="1" rot="R90"/>
 <wire x1="-1.397" y1="1.397" x2="1.397" y2="1.397" width="0.127" layer="21"/>
 <wire x1="1.397" y1="1.397" x2="1.397" y2="-1.397" width="0.127" layer="21"/>
 <wire x1="1.397" y1="-1.397" x2="-1.397" y2="-1.397" width="0.127" layer="21"/>
@@ -4706,54 +4706,29 @@ Source: AVX .. aphvc.pdf</description>
 Based on the previous library ind-a.lbr&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="DR1,5A">
-<description>&lt;B&gt;INDUCTOR&lt;/B&gt;</description>
-<wire x1="-10.16" y1="2.54" x2="-10.16" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="10.16" y1="-2.54" x2="10.16" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-10.16" y1="2.54" x2="10.16" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="10.16" y1="-2.54" x2="-10.16" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="7.239" y1="2.921" x2="7.493" y2="-2.921" width="0.508" layer="21"/>
-<wire x1="6.604" y1="2.921" x2="6.858" y2="-2.921" width="0.508" layer="21"/>
-<wire x1="5.969" y1="2.921" x2="6.223" y2="-2.921" width="0.508" layer="21"/>
-<wire x1="5.334" y1="2.921" x2="5.588" y2="-2.921" width="0.508" layer="21"/>
-<wire x1="-7.366" y1="2.921" x2="-7.112" y2="-2.921" width="0.508" layer="21"/>
-<wire x1="-6.731" y1="2.921" x2="-6.477" y2="-2.921" width="0.508" layer="21"/>
-<wire x1="-6.096" y1="2.921" x2="-5.842" y2="-2.921" width="0.508" layer="21"/>
-<wire x1="7.874" y1="2.921" x2="8.128" y2="-2.921" width="0.508" layer="21"/>
-<wire x1="-8.001" y1="2.921" x2="-7.747" y2="-2.921" width="0.508" layer="21"/>
-<wire x1="11.176" y1="0" x2="12.7" y2="0" width="0.8128" layer="51"/>
-<wire x1="10.8204" y1="-0.254" x2="10.414" y2="-0.6604" width="0.508" layer="21"/>
-<wire x1="10.414" y1="-0.6604" x2="10.414" y2="0.6604" width="0.508" layer="21"/>
-<wire x1="10.414" y1="0.6604" x2="10.8204" y2="0.254" width="0.508" layer="21"/>
-<wire x1="-10.414" y1="-0.6604" x2="-10.414" y2="0.6604" width="0.508" layer="21"/>
-<wire x1="-10.414" y1="0.6604" x2="-10.8204" y2="0.254" width="0.508" layer="21"/>
-<wire x1="-10.8204" y1="-0.254" x2="-10.414" y2="-0.6604" width="0.508" layer="21"/>
-<wire x1="-12.7" y1="0" x2="-11.176" y2="0" width="0.8128" layer="51"/>
-<wire x1="8.509" y1="2.921" x2="8.763" y2="-2.921" width="0.508" layer="21"/>
-<wire x1="-8.636" y1="2.921" x2="-8.382" y2="-2.921" width="0.508" layer="21"/>
-<wire x1="-4.191" y1="2.921" x2="-3.937" y2="-2.921" width="0.508" layer="21"/>
-<wire x1="-3.556" y1="2.921" x2="-3.302" y2="-2.921" width="0.508" layer="21"/>
-<wire x1="-2.921" y1="2.921" x2="-2.667" y2="-2.921" width="0.508" layer="21"/>
-<wire x1="-4.826" y1="2.921" x2="-4.572" y2="-2.921" width="0.508" layer="21"/>
-<wire x1="-5.461" y1="2.921" x2="-5.207" y2="-2.921" width="0.508" layer="21"/>
-<wire x1="-1.016" y1="2.921" x2="-0.762" y2="-2.921" width="0.508" layer="21"/>
-<wire x1="-0.381" y1="2.921" x2="-0.127" y2="-2.921" width="0.508" layer="21"/>
-<wire x1="0.254" y1="2.921" x2="0.508" y2="-2.921" width="0.508" layer="21"/>
-<wire x1="-1.651" y1="2.921" x2="-1.397" y2="-2.921" width="0.508" layer="21"/>
-<wire x1="-2.286" y1="2.921" x2="-2.032" y2="-2.921" width="0.508" layer="21"/>
-<wire x1="2.159" y1="2.921" x2="2.413" y2="-2.921" width="0.508" layer="21"/>
-<wire x1="2.794" y1="2.921" x2="3.048" y2="-2.921" width="0.508" layer="21"/>
-<wire x1="3.429" y1="2.921" x2="3.683" y2="-2.921" width="0.508" layer="21"/>
-<wire x1="1.524" y1="2.921" x2="1.778" y2="-2.921" width="0.508" layer="21"/>
-<wire x1="0.889" y1="2.921" x2="1.143" y2="-2.921" width="0.508" layer="21"/>
-<wire x1="4.064" y1="2.921" x2="4.318" y2="-2.921" width="0.508" layer="21"/>
-<wire x1="4.699" y1="2.921" x2="4.953" y2="-2.921" width="0.508" layer="21"/>
-<pad name="1" x="-12.7" y="0" drill="1.016" shape="long"/>
-<pad name="2" x="12.7" y="0" drill="1.016" shape="long"/>
-<text x="-10.541" y="3.429" size="1.524" layer="25" ratio="10">&gt;NAME</text>
-<text x="-10.16" y="-4.953" size="1.524" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="10.16" y1="-0.4064" x2="11.303" y2="0.4064" layer="21"/>
-<rectangle x1="-11.303" y1="-0.4064" x2="-10.16" y2="0.4064" layer="21"/>
+<package name="SUKW1-30">
+<description>&lt;B&gt;INDUCTOR&lt;/B&gt;&lt;p&gt;
+manufacturer Siemens</description>
+<wire x1="15.24" y1="0" x2="13.97" y2="0" width="0.8128" layer="51"/>
+<wire x1="-15.24" y1="0" x2="-13.97" y2="0" width="0.8128" layer="51"/>
+<wire x1="-12.7" y1="-2.794" x2="-12.7" y2="2.794" width="0.1524" layer="21"/>
+<wire x1="-12.7" y1="2.794" x2="-11.303" y2="3.683" width="0.1524" layer="21"/>
+<wire x1="-12.7" y1="-2.794" x2="-11.303" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="11.303" y1="3.683" x2="-11.303" y2="3.683" width="0.1524" layer="21"/>
+<wire x1="11.303" y1="-3.683" x2="-11.303" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="12.7" y1="2.794" x2="11.303" y2="3.683" width="0.1524" layer="21"/>
+<wire x1="12.7" y1="-2.794" x2="11.303" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="12.7" y1="-2.794" x2="12.7" y2="2.794" width="0.1524" layer="21"/>
+<wire x1="-11.303" y1="3.302" x2="-11.303" y2="-3.302" width="0.0508" layer="21"/>
+<wire x1="11.303" y1="3.302" x2="11.303" y2="-3.302" width="0.0508" layer="21"/>
+<pad name="1" x="-15.24" y="0" drill="1.016" shape="long"/>
+<pad name="2" x="15.24" y="0" drill="1.016" shape="long"/>
+<text x="-11.43" y="3.8354" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-9.144" y="-0.5842" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="12.7" y1="-0.762" x2="13.081" y2="0.762" layer="21"/>
+<rectangle x1="-13.081" y1="-0.762" x2="-12.7" y2="0.762" layer="21"/>
+<rectangle x1="13.081" y1="-0.4064" x2="13.9192" y2="0.4064" layer="21"/>
+<rectangle x1="-13.9192" y1="-0.4064" x2="-13.081" y2="0.4064" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -4767,13 +4742,13 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="DRR1,5A" prefix="L">
+<deviceset name="B82111" prefix="L">
 <description>&lt;B&gt;INDUCTOR&lt;/B&gt;</description>
 <gates>
 <gate name="1" symbol="DRK" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="DR1,5A">
+<device name="" package="SUKW1-30">
 <connects>
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
@@ -4800,7 +4775,7 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 <part name="X1" library="con-coax" deviceset="SMA-" device="142-0711-821/826" value="SMA-142-0711-821/826"/>
 <part name="TP2" library="testpad" deviceset="TP" device="PAD1-13Y"/>
 <part name="TP4" library="testpad" deviceset="TP" device="PAD1-13Y"/>
-<part name="L1" library="inductors" deviceset="DRR1,5A" device=""/>
+<part name="L1" library="inductors" deviceset="B82111" device=""/>
 <part name="C2" library="sprague" deviceset="C-TRIMM" device="" value="10-30"/>
 <part name="C5" library="resistor" deviceset="C-US" device="" value="100p"/>
 </parts>
